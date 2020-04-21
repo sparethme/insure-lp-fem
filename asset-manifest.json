@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/insure-lp-fem/static/css/main.c6e33689.chunk.css",
+    "main.js": "/insure-lp-fem/static/js/main.76a76f28.chunk.js",
+    "main.js.map": "/insure-lp-fem/static/js/main.76a76f28.chunk.js.map",
+    "runtime-main.js": "/insure-lp-fem/static/js/runtime-main.ba33da26.js",
+    "runtime-main.js.map": "/insure-lp-fem/static/js/runtime-main.ba33da26.js.map",
+    "static/js/2.d9e05a9d.chunk.js": "/insure-lp-fem/static/js/2.d9e05a9d.chunk.js",
+    "static/js/2.d9e05a9d.chunk.js.map": "/insure-lp-fem/static/js/2.d9e05a9d.chunk.js.map",
+    "index.html": "/insure-lp-fem/index.html",
+    "precache-manifest.042be561a60b5ce7ece8964fdac6ebf1.js": "/insure-lp-fem/precache-manifest.042be561a60b5ce7ece8964fdac6ebf1.js",
+    "service-worker.js": "/insure-lp-fem/service-worker.js",
+    "static/css/main.c6e33689.chunk.css.map": "/insure-lp-fem/static/css/main.c6e33689.chunk.css.map",
+    "static/js/2.d9e05a9d.chunk.js.LICENSE.txt": "/insure-lp-fem/static/js/2.d9e05a9d.chunk.js.LICENSE.txt",
+    "static/media/footer.css": "/insure-lp-fem/static/media/bg-pattern-footer-mobile.c33e3a52.svg",
+    "static/media/cta.css": "/insure-lp-fem/static/media/bg-pattern-how-we-work-mobile.a4de14b0.svg",
+    "static/media/showcase.css": "/insure-lp-fem/static/media/bg-pattern-intro-left-mobile.562149a8.svg",
+    "static/media/bg-pattern-intro-right-mobile.svg": "/insure-lp-fem/static/media/bg-pattern-intro-right-mobile.ef3d23bd.svg",
+    "static/media/icon-affordable-prices.svg": "/insure-lp-fem/static/media/icon-affordable-prices.b9dc0b5c.svg",
+    "static/media/icon-close.svg": "/insure-lp-fem/static/media/icon-close.d57cc9d5.svg",
+    "static/media/icon-facebook.svg": "/insure-lp-fem/static/media/icon-facebook.6fd0e324.svg",
+    "static/media/icon-hamburger.svg": "/insure-lp-fem/static/media/icon-hamburger.d98c1990.svg",
+    "static/media/icon-instagram.svg": "/insure-lp-fem/static/media/icon-instagram.48a204c8.svg",
+    "static/media/icon-people-first.svg": "/insure-lp-fem/static/media/icon-people-first.b264095b.svg",
+    "static/media/icon-pinterest.svg": "/insure-lp-fem/static/media/icon-pinterest.275a65a2.svg",
+    "static/media/icon-snappy-process.svg": "/insure-lp-fem/static/media/icon-snappy-process.3cc5dc39.svg",
+    "static/media/icon-twitter.svg": "/insure-lp-fem/static/media/icon-twitter.6eef62ff.svg",
+    "static/media/image-intro-desktop.jpg": "/insure-lp-fem/static/media/image-intro-desktop.8ac69ec7.jpg",
+    "static/media/image-intro-mobile.jpg": "/insure-lp-fem/static/media/image-intro-mobile.09a91c1a.jpg",
+    "static/media/logo.svg": "/insure-lp-fem/static/media/logo.1bc452ac.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba33da26.js",
+    "static/js/2.d9e05a9d.chunk.js",
+    "static/css/main.c6e33689.chunk.css",
+    "static/js/main.76a76f28.chunk.js"
+  ]
+}
