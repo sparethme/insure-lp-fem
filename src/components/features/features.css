@@ -1,0 +1,45 @@
+.features {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.features-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.features-content {
+  text-align: center;
+}
+
+.features-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+}
+
+.features-content hr {
+  width: 100px;
+  border: 1px solid;
+  color: grey;
+}
+
+.card-deck {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 75%;
+  margin-bottom: 40px;
+}
+
+/* bg svgs */
+
+.bg-intro-right {
+  position: absolute;
+  top: 1000px;
+  right: 0px;
+}
+

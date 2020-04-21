@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+body {
+  padding: 0; 
+  margin: 0; 
+  border-style: border-box;
+  font-family: 'karla', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'dm serif text', serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}

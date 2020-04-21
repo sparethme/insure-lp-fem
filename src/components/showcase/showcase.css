@@ -1,0 +1,89 @@
+.showcase {
+  width: 100%;
+  color: #FFFFFD;
+  background-color: #2C2640;
+}
+
+.showcase hr {
+  display: none;
+}
+
+
+.showcase-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #2C2640; */
+}
+
+.showcase-col-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase-img {
+  width: 100%;
+}
+
+.showcase-img img {
+  /* img itself needs to be at width 100%, not its parent div */
+  width: 100%;
+}
+
+.showcase-body {
+  /* background styling */
+  background-image: url('../../assets/images/bg-pattern-intro-left-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 40% 55%;
+  background-position: top left;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.showcase-body h1 {
+  font-size: 3rem;
+}
+
+.showcase-col-two {
+  /* col for desktop with image */
+  display: none;
+}
+
+.h1 {
+  font-size: 3rem;
+}
+
+.showcase-body a {
+  text-transform: uppercase;
+  border: 2px solid #fff; 
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.showcase-body a:hover {
+  background-color: #fff; 
+  color: #2C2640;
+}
+
+
+@media (min-width:769px) {
+
+  hr {
+    display: block;
+    width: 100px;
+  }
+  
+  .showcase-col-one {
+    width: 100%;
+  }
+
+  .showcase-col-one img {
+    display: none;
+  }
+
+  .showcase-col-two {
+    display: block;
+  }
+}
