@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/insure-lp-fem/static/css/main.c6e33689.chunk.css",
-    "main.js": "/insure-lp-fem/static/js/main.76a76f28.chunk.js",
-    "main.js.map": "/insure-lp-fem/static/js/main.76a76f28.chunk.js.map",
+    "main.css": "/insure-lp-fem/static/css/main.0849db1e.chunk.css",
+    "main.js": "/insure-lp-fem/static/js/main.c8b3d882.chunk.js",
+    "main.js.map": "/insure-lp-fem/static/js/main.c8b3d882.chunk.js.map",
     "runtime-main.js": "/insure-lp-fem/static/js/runtime-main.ba33da26.js",
     "runtime-main.js.map": "/insure-lp-fem/static/js/runtime-main.ba33da26.js.map",
-    "static/js/2.d9e05a9d.chunk.js": "/insure-lp-fem/static/js/2.d9e05a9d.chunk.js",
-    "static/js/2.d9e05a9d.chunk.js.map": "/insure-lp-fem/static/js/2.d9e05a9d.chunk.js.map",
+    "static/js/2.06390f48.chunk.js": "/insure-lp-fem/static/js/2.06390f48.chunk.js",
+    "static/js/2.06390f48.chunk.js.map": "/insure-lp-fem/static/js/2.06390f48.chunk.js.map",
     "index.html": "/insure-lp-fem/index.html",
-    "precache-manifest.042be561a60b5ce7ece8964fdac6ebf1.js": "/insure-lp-fem/precache-manifest.042be561a60b5ce7ece8964fdac6ebf1.js",
+    "precache-manifest.dc5f547c150c96a7c490e63413e7ed12.js": "/insure-lp-fem/precache-manifest.dc5f547c150c96a7c490e63413e7ed12.js",
     "service-worker.js": "/insure-lp-fem/service-worker.js",
-    "static/css/main.c6e33689.chunk.css.map": "/insure-lp-fem/static/css/main.c6e33689.chunk.css.map",
-    "static/js/2.d9e05a9d.chunk.js.LICENSE.txt": "/insure-lp-fem/static/js/2.d9e05a9d.chunk.js.LICENSE.txt",
+    "static/css/main.0849db1e.chunk.css.map": "/insure-lp-fem/static/css/main.0849db1e.chunk.css.map",
+    "static/js/2.06390f48.chunk.js.LICENSE.txt": "/insure-lp-fem/static/js/2.06390f48.chunk.js.LICENSE.txt",
     "static/media/footer.css": "/insure-lp-fem/static/media/bg-pattern-footer-mobile.c33e3a52.svg",
     "static/media/cta.css": "/insure-lp-fem/static/media/bg-pattern-how-we-work-mobile.a4de14b0.svg",
+    "static/media/bg-pattern-intro-left-desktop.svg": "/insure-lp-fem/static/media/bg-pattern-intro-left-desktop.600d6444.svg",
     "static/media/showcase.css": "/insure-lp-fem/static/media/bg-pattern-intro-left-mobile.562149a8.svg",
+    "static/media/bg-pattern-intro-right-desktop.svg": "/insure-lp-fem/static/media/bg-pattern-intro-right-desktop.fc61cf1f.svg",
     "static/media/bg-pattern-intro-right-mobile.svg": "/insure-lp-fem/static/media/bg-pattern-intro-right-mobile.ef3d23bd.svg",
+    "static/media/navbar.css": "/insure-lp-fem/static/media/bg-pattern-mobile-nav.2922ed2c.svg",
     "static/media/icon-affordable-prices.svg": "/insure-lp-fem/static/media/icon-affordable-prices.b9dc0b5c.svg",
     "static/media/icon-close.svg": "/insure-lp-fem/static/media/icon-close.d57cc9d5.svg",
     "static/media/icon-facebook.svg": "/insure-lp-fem/static/media/icon-facebook.6fd0e324.svg",
@@ -31,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ba33da26.js",
-    "static/js/2.d9e05a9d.chunk.js",
-    "static/css/main.c6e33689.chunk.css",
-    "static/js/main.76a76f28.chunk.js"
+    "static/js/2.06390f48.chunk.js",
+    "static/css/main.0849db1e.chunk.css",
+    "static/js/main.c8b3d882.chunk.js"
   ]
 }
