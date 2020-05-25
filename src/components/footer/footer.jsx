@@ -11,7 +11,7 @@ import instagramIcon from '../../assets/images/icon-instagram.svg';
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-container">
+      <div className="container">
 
         <div className="footer-header">
           <div className="logo">
@@ -32,7 +32,7 @@ function Footer() {
         <div className="footer-lists">
           {/* footer list 1, missing anchor tags*/}
           <div className="footer-list">
-            <h3>Our company</h3>
+            <h6>Our company</h6>
             <ul>
               <li><a href="#!">How we work</a></li>
               <li><a href="#!">Why Insure?</a></li>
@@ -42,7 +42,7 @@ function Footer() {
           </div>
           {/* footer list 2 */}
           <div className="footer-list">
-            <h3>Help me</h3>
+            <h6>Help me</h6>
             <ul>
               <li><a href="#!">FAQ</a></li>
               <li><a href="#!">Terms of use</a></li>
@@ -53,7 +53,7 @@ function Footer() {
 
           {/* footer list 3 */}
           <div className="footer-list">
-            <h3>Contact</h3>
+            <h6>Contact</h6>
             <ul>
               <li><a href="#!">Sales</a></li>
               <li><a href="#!">Support</a></li>
@@ -62,7 +62,7 @@ function Footer() {
           </div>
           {/* fooer list 4 */}
           <div className="footer-list">
-            <h3>Others</h3>
+            <h6>Others</h6>
             <ul>
               <li><a href="#!">Careers</a></li>
               <li><a href="#!">Press</a></li>

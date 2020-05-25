@@ -1,6 +1,7 @@
 .features {
   width: 100%;
   padding: 100px 0;
+  
 }
 
 .features-container {
@@ -43,3 +44,63 @@
   right: 0px;
 }
 
+section.different .card-deck img {
+  max-width: 86px;
+}
+
+section.features hr {
+  margin: 0 auto;
+  margin-bottom:4rem;
+}
+section.features .card-deck {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+section.features .card h4 {
+  font-size: 2.8rem;
+  letter-spacing: -0.39px;
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+section.features .card p {
+  font-size: 1.6rem;
+  line-height: 1.625;
+}
+
+
+
+@media screen and (min-width: 960px) {
+
+  
+section.features .card-deck {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  section.features .card-deck .card {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+section.different {
+  margin-top: 30.5rem;
+  margin-bottom: 15.8rem;
+}
+section.different hr {
+  margin: unset;
+  margin-bottom: 6.3rem;
+}
+section.different .card-deck {
+  flex-direction: row;
+}
+section.features h3 {
+  font-size: 7.2rem;
+}
+section.features .card-deck {
+  margin-top: 9.6rem;
+}
+
+}

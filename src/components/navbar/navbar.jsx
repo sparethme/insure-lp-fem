@@ -8,7 +8,7 @@ import hamburger from '../../assets/images/icon-hamburger.svg';
 import hamClose from '../../assets/images/icon-close.svg';
 
 // navbar state 
-// starting state is false
+// starting state isOpen set to false
 
 function Navbar() {
 
@@ -19,29 +19,43 @@ function Navbar() {
     setIsOpen(!isOpen);
   }
 
+  // {isOpen === false ? "" : "nav-fixed"}
+
   return (
-    <nav className={isOpen === false ? "" : "nav-fixed"} >
-      <div className="nav-container">
-        <div className="nav-logo">
-          <img src={logoPrimary} alt="company-logo" />
+    <div>
+      <header>
+        <div className="container">
+          <nav>
+            <div className="nav-logo">
+              <a href="index.html"><img src={logoPrimary} alt="company logo" /></a>
+            </div>
+            <div className="dropdown-btn" onClick={toggle}>
+              {isOpen === false ?
+                <img src={hamburger} alt="icon-hamburger" /> :
+                <img src={hamClose} alt="icon-hamburger-close" className="show" />}
+            </div>
+            <div className="nav-items-desktop">
+              <ul className="nav-items">
+                <li className="nav-item"><a>How we work</a></li>
+                <li className="nav-item"><a>Blog</a></li>
+                <li className="nav-item"><a>Account</a></li>
+                <li className="nav-item"><a className="btn-dark">View plans</a></li>
+              </ul>
+            </div>
+          </nav>
         </div>
+      </header>
 
-        <button className="hamburger" onClick={toggle}>
-          {isOpen === false ?
-            <img src={hamburger} alt="icon-hamburger" /> :
-            <img src={hamClose} alt="icon-hamburger-close" className="show" />}
-        </button>
-
-        <div className="nav-items">
-          <ul className={isOpen === false ? "d-none" : "nav-show"}>
-            <li><a>How we work</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Account</a></li>
-            <li><a className="btn">View plans</a></li>
-          </ul>
-        </div>
+      <div className={isOpen === false ? "d-none" : "dropdown-menu"}>
+        <ul className={isOpen === false ? "d-none" : "nav-items"}>
+          <li className="nav-item"><a>How we work</a></li>
+          <li className="nav-item"><a>Blog</a></li>
+          <li className="nav-item"><a>Account</a></li>
+          <li className="nav-item"><a className="btn-light">View plans</a></li>
+        </ul>
       </div>
-    </nav>
+
+    </div>
 
   );
 }

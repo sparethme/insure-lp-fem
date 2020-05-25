@@ -4,12 +4,13 @@
   color: #fff;
 }
 
-.cta-container {
+.cta-content {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center; 
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
   height: 400px;
   background-color: #2C273F;
@@ -19,12 +20,14 @@
   background-size: contain;
 }
 
-.cta-content {
-  width: 50%;
-}
 
-.cta-content h1 {
-  font-size: 2rem;
+.cta-content h4 {
+  font-size: 4rem;
+  line-height: 1;
+  letter-spacing: -0.56px;
+  padding: 0 2.4rem;
+  margin-bottom: 4rem;
+  font-weight: 700;
 }
 
 .cta-content a {
@@ -39,4 +42,26 @@
 .cta-content a:hover {
   background-color: #fff; 
   color: #2C2640;
+}
+
+
+@media screen and (min-width: 1440px) {
+
+section.cta .content {
+  align-items: center;
+  background-image: url(../../assets/images/bg-pattern-how-we-work-desktop.svg);
+  background-position: right center;
+  display: flex;
+  justify-content: space-between;
+  padding: 6.9rem 8.1rem;
+}
+section.cta .content h4 {
+  margin-bottom: 0;
+  font-size: 5.6rem;
+  padding: 0;
+  letter-spacing: -0.78px;
+}
+section.cta {
+  margin-bottom: 15rem;
+}
 }

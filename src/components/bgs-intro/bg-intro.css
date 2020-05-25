@@ -1,0 +1,24 @@
+#side-pattern-mobile {
+  display: flex;
+  position: absolute;
+  right: 0;
+  transform: translateY(-40%);
+}
+#side-pattern-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+
+  #side-pattern-mobile {
+    display: none;
+  }
+
+  #side-pattern-desktop {
+    display: flex;
+    position: absolute;
+    left: 0;
+    transform: translateY(-34%);
+  }
+
+}

@@ -23,11 +23,11 @@ function Features() {
     <section className="features">
       {/* have bg svgs outside container to place it at edge of screen */}
       {/* svg-right-mobile */}
-      <img src={bgSvgRight} className="bg-intro-right" />
+      {/* <img src={bgSvgRight} className="bg-intro-right" /> */}
       <div className="features-container">
         <div className="features-content">
           <hr></hr>
-          <h1>We're different</h1>
+          <h3>We're different</h3>
           <div className="card-deck">
             {/* card 1 */}
             <FeatureCard cardIcon={f1Icon} cardAlt="feature 1 image" cardTitle="Snappy Process" cardBody="Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms." />

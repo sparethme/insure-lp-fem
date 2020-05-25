@@ -1,15 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Karla:400,700&display=swap');
+/* Custom Variables */
 
-body {
+:root{
+  /* color palette */
+  --deep-purple: hsl(256, 26%, 20%);
+  --very-deep-purple: hsl(270, 9%, 17%);
+
+  --gray-purple: hsl(273, 4%, 51%);
+  --gray-blue:  hsl(216, 30%, 68%);
+  --gray-white: hsl(0, 0%, 98%);
+
+  /* 1 rem = 10px, easier to convert between units */
+  font-size: 62.5%;
+
+  /* font weight and size */
+  --font-size: 2rem;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  /* fonts */
+  --body-font-family: 'Karla', sans-serif;
+  --heading-font-family: 'DM Serif Display', serif;
+}
+
+/* Reset  */
+* {
   padding: 0; 
   margin: 0; 
   border-style: border-box;
-  font-family: 'karla', sans-serif;
+  font-family: inherit;
 }
 
-h1, h2 {
-  font-family: 'dm serif text', serif;
+body {
+  font-size: var(--font-size);
+  font-family: var(--body-font-family);
+  font-weight: var(--font-weight-normal);
+
+  /* mobile first design */
+  text-align: center; 
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--heading-font-family);
+  font-weight: var(--font-weight-normal);
 }
 
 ul {
@@ -18,6 +52,80 @@ ul {
   padding: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
+}
+
+/* buttons */
+.btn-light {
+  font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 1.3rem 101.7px;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.btn-light:hover {
+  background-color: #fff;
+  color: var(--deep-purple);
+}
+
+
+.btn-dark  {
+  color: var(--very-deep-purple);
+  padding: 1.3rem 2rem;
+  border: 1px solid var(--very-deep-purple);
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: var(--very-deep-purple);
+}
+
+
+
+
+
+/* wrapper */
+.container {
+  padding: 0 2.4rem;
+  min-width: 320px;
+  box-sizing: border-box;
+}
+
+.col {
+  width: 100%;
+}
+
+.d-none {
+  display: none; 
+}
+
+
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 0 10rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    text-align: left;
+  }
+
+  .container {
+    max-width: 1440px;
+    padding: 0 16.5rem;
+    margin: 0 auto;
+  }
+
+  .col {
+    width: 49%;
+  }
 }
