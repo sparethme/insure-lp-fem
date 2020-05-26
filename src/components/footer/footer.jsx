@@ -27,7 +27,7 @@ function Footer() {
         </div>
 
         {/* line break with line  */}
-        <hr className="footer-hr"></hr>
+        <div className="long-hr"></div>
         {/* footer lists */}
         <div className="footer-lists">
           {/* footer list 1, missing anchor tags*/}

@@ -18,12 +18,6 @@
   margin-bottom: 60px;
 }
 
-.features-content hr {
-  width: 100px;
-  border: 1px solid;
-  color: grey;
-}
-
 .card-deck {
   display: flex;
   flex-direction: column;
@@ -44,63 +38,76 @@
   right: 0px;
 }
 
-section.different .card-deck img {
+.features .card-deck img {
   max-width: 86px;
 }
 
-section.features hr {
-  margin: 0 auto;
-  margin-bottom:4rem;
+.features h3 {
+  font-size: 5rem;
+  color: var(--very-deep-purple);
 }
-section.features .card-deck {
+
+.features h4 {
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.features .hr-dark {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.features .card-deck {
   display: flex;
   flex-direction: column;
   margin-top: 8rem;
 }
-section.features .card h4 {
-  font-size: 2.8rem;
-  letter-spacing: -0.39px;
-  margin-top: 3.2rem;
-  margin-bottom: 1.6rem;
-}
+
 section.features .card p {
-  font-size: 1.6rem;
+  font-size: rem;
   line-height: 1.625;
+  color: var(--gray-purple);
 }
 
 
 
 @media screen and (min-width: 960px) {
 
-  
-section.features .card-deck {
+.features .card-deck {
     flex-direction: row;
     justify-content: space-between;
+    align-items: start;
   }
 
-  section.features .card-deck .card {
+.features .card-deck .card {
     padding: 0 2rem;
   }
+
+
+.features-content {
+  text-align: start;
+}
+
 }
 
 @media screen and (min-width: 1440px) {
 
-section.different {
-  margin-top: 30.5rem;
-  margin-bottom: 15.8rem;
+.features {
+  margin: 20rem 0;
+  
 }
-section.different hr {
-  margin: unset;
-  margin-bottom: 6.3rem;
-}
-section.different .card-deck {
+
+section.features .card-deck {
   flex-direction: row;
 }
 section.features h3 {
   font-size: 7.2rem;
 }
+
 section.features .card-deck {
   margin-top: 9.6rem;
 }
+
 
 }

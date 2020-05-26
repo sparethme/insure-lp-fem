@@ -12,12 +12,13 @@
   text-align: center; 
   /* width: 90%; */
   margin: 0 auto;
-  height: 400px;
+  /* height: 400px; */
   background-color: #2C273F;
   background-image: url("../../assets/images/bg-pattern-how-we-work-mobile.svg");
   background-repeat: no-repeat;
   background-position: right; 
   background-size: contain;
+  padding: 8rem 0;
 }
 
 
@@ -45,23 +46,31 @@
 }
 
 
+
+
 @media screen and (min-width: 1440px) {
 
-section.cta .content {
+.cta-content {
   align-items: center;
-  background-image: url(../../assets/images/bg-pattern-how-we-work-desktop.svg);
+  background-image: url("../../assets/images/bg-pattern-how-we-work-desktop.svg");
   background-position: right center;
-  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 6.9rem 8.1rem;
+  padding: 7rem;
 }
-section.cta .content h4 {
+
+.cta-content h4 {
   margin-bottom: 0;
-  font-size: 5.6rem;
+  font-size: 6rem;
   padding: 0;
-  letter-spacing: -0.78px;
+  text-align: left;
 }
-section.cta {
+
+.cta-content a {
+  display: inline-block;
+}
+.cta {
   margin-bottom: 15rem;
 }
+
 }

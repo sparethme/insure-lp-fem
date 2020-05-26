@@ -138,9 +138,9 @@ section.showcase a.btn {
   justify-content: space-between;
 }
 
-  .showcase-hero-img-d img {
+  /* .showcase-hero-img-d img {
     transform: translateY(-80px);
-  }
+  } */
 
 }
 
@@ -161,7 +161,9 @@ section.showcase a.btn {
     position: absolute;
     right: 0;
     overflow-y: hidden;
+    z-index: 1;
   }
+
   .showcase-bg-d img {
     transform: translateY(-80px);
   }
@@ -180,23 +182,27 @@ section.showcase a.btn {
   
   }
 
-  .showcase-hero-img-d img {
+  /* .showcase-hero-img-d img {
     transform: translateY(-80px);
-  }
-  section.showcase {
+  } */
+  
+  .showcase {
     max-height: 600px;
   }
-  section.showcase h1 {
+  
+  .showcase h1 {
     font-size: 7.2rem;
     line-height: 0.88;
     letter-spacing: -1px;
   }
-  section.showcase h2 {
+  
+  .showcase h2 {
     margin-bottom: 2.4rem;
   }
   .showcase-hero-img-d {
     display: flex;
   }
+
   section.showcase .container {
     display: flex;
     justify-content: space-between;

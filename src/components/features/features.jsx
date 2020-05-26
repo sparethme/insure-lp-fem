@@ -5,14 +5,11 @@ import f1Icon from '../../assets/images/icon-snappy-process.svg';
 import f2Icon from '../../assets/images/icon-affordable-prices.svg';
 import f3Icon from '../../assets/images/icon-people-first.svg';
 
-// bg svgs
-import bgSvgRight from '../../assets/images/bg-pattern-intro-right-mobile.svg';
-
 function FeatureCard(props) {
   return (
     <div className="card">
       <img src={props.cardIcon} alt={props.cardAlt} />
-      <h2>{props.cardTitle}</h2>
+      <h4>{props.cardTitle}</h4>
       <p>{props.cardBody}</p>
     </div>
   );
@@ -26,8 +23,8 @@ function Features() {
       {/* <img src={bgSvgRight} className="bg-intro-right" /> */}
       <div className="features-container">
         <div className="features-content">
-          <hr></hr>
-          <h3>We're different</h3>
+          <div className="dark-hr"></div>
+          <h3>We’re different</h3>
           <div className="card-deck">
             {/* card 1 */}
             <FeatureCard cardIcon={f1Icon} cardAlt="feature 1 image" cardTitle="Snappy Process" cardBody="Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms." />
