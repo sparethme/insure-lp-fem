@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/insure-lp-fem/precache-manifest.dc5f547c150c96a7c490e63413e7ed12.js"
+  "/insure-lp-fem/precache-manifest.743c0a8d9329647e245633fbe2522474.js"
 );
 
 self.addEventListener('message', (event) => {
